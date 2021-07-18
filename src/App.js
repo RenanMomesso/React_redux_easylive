@@ -16,7 +16,7 @@ const App = () => {
       <Navbar />
       <ButtonToTop/>
       <Switch>
-        <Route path="/home" exact component={Home} />
+        <Route path="/" exact component={Home} />
         <Route path="/product/:id" exact component={Product} />
         <Route path="/cart" exact component={ShopingCart} />
       </Switch>
