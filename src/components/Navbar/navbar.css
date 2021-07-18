@@ -1,0 +1,81 @@
+
+.Nav {
+  background: blueviolet;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 50px;
+  z-index: 10;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.NavLink {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.NavLink:active {
+  color: #15cdfc;
+}
+
+.Bars {
+  display: none;
+  color: #fff;
+}
+
+.NavMenu {
+  display: flex;
+  align-items: center;
+  margin-right: -24px;
+  /* Second Nav */
+  /* margin-right: 24px; */
+  /* Third Nav */
+  /* width: 100vw;
+  white-space: nowrap; */
+}
+.NavBtn {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.NavBtnLink {
+  border-radius: 4px;
+  background: white;
+  padding: 10px 22px;
+  color: gray;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  /* Second Nav */
+  margin-left: 24px;
+}
+
+.NavBtnLink:hover {
+  transition: all 0.2s ease-in-out;
+  background: #fff;
+  color: #010606;
+}
+
+@media screen and (max-width: 768px) {
+
+
+  .Bars {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}

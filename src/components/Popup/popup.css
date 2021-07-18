@@ -1,0 +1,25 @@
+.popup {
+  width: 250px;
+  height: 40px;
+  top: 10px;
+  background-color: rgb(94, 213, 94);
+  color: white;
+  border-radius: 12px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  z-index: 9999999999;
+  margin-top: 70px;
+}

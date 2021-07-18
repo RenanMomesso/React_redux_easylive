@@ -1,0 +1,123 @@
+.shopping-main {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  min-height: 500px;
+  margin-top: 100px;
+}
+
+.shopping-products {
+  width: 70%;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table td, .table th{
+  padding: 12px 15px;
+  border: 1px solid lightgray;
+  text-align: center;
+}
+
+.table th {
+  background-color: rgb(140, 0, 255);
+  color:#fff;
+  font-size: 14px;
+}
+
+.table tbody tr:nth-child(even){
+  background-color: #f5f5f5;
+}
+
+.shopping-product-img {
+  width: 170px;
+  height: 170px;
+}
+
+.shopping-total {
+  width: 20%;
+  border: 1px solid lightgray;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.shopping-total {
+  color: blueviolet;
+  font-weight: bolder;
+  max-height: 250px;
+}
+
+.no-products {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 420px;
+}
+
+.button-remove-product {
+  border: none;
+  background-color: tomato;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.purchase-button {
+  padding: 10px 15px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  background-color: teal;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 0 blueviolet;
+  outline: none;
+  transition: ease-out 0.6s;
+
+}
+
+.purchase-button:hover {
+  box-shadow: inset 300px 0 0 0 blueviolet;
+  color: #f5f5f5;
+}
+
+@media screen and (max-width: 768px) {
+  .shopping-main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .shopping-products {
+    width: 80%;
+    margin: auto;
+  }
+
+  .shopping-total{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .table thead {
+    display: none;
+  }
+
+  .table, .table tbody, .table tr, .table td {
+    display: block;
+  }
+
+  .table tr {
+    margin-bottom: 15px;
+  }
+
+
+}

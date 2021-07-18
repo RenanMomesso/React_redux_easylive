@@ -1,0 +1,17 @@
+.button-to-top {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: tomato;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: wheat;
+    margin-right: 15px;
+    margin-bottom:15px;
+    cursor: pointer;
+}
