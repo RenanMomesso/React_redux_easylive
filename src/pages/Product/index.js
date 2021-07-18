@@ -40,7 +40,7 @@ const Product = () => {
     <>
       {showPopup && <Popup add message={"Produto adicionado ao carrinho"} />}
       <div className="breadcumb">
-        <Link to="/home">Home </Link> /
+        <Link to="/">Home </Link> /
         <Link to={`/product/${productObject.idProduct}`}>
           {productObject.name}
         </Link>
